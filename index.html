@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celebrare</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="main-header">
+        <div id="menu">
+          <img src="./assets/icons/menu-50.png" alt="">
+        </div>
+          <div class="logo">
+          <img src="./assets/Logo.png" alt="Website Logo" />
+        </div>
+        <div class="responsive-nav">
+          <div id="close">
+            <img src="./assets/icons/close-50.png" alt="">
+          </div>
+          <ul>
+            <li class="res-nav-links"><a href="#">Wedding Cards</a></li>
+            <li class="res-nav-links"><a href="#">Birthday Cards</a></li>
+            <li class="res-nav-links"><a href="#">Feeling Cards</a></li>
+            <li class="res-nav-links"><a href="#">Aniversary Cards</a></li>
+            <div class="res-links">
+              <a href="#" class="res-nav-links login">Login |</a>
+              <a href="#" class="res-nav-links signup">Signup</a>
+            </div>
+          </ul>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li class="nav-links"><a href="#">Wedding Cards</a></li>
+            <li class="nav-links"><a href="#">Birthday Cards</a></li>
+            <li class="nav-links"><a href="#">Feeling Cards</a></li>
+            <li class="nav-links"><a href="#">Aniversary Cards</a></li>
+          </ul>
+        </nav>
+        <div class="links">
+          <a href="#" class="login">Login |</a>
+          <a href="#" class="signup">Signup</a>
+        </div>
+      </header>
+      <main class="main-container">
+        <div class="card-background">
+          <img src="./assets/Background.jpg" alt="" />
+        </div>
+        <div class="container">
+          <div class="main-heading">
+            <h1 class="primary-title">Digital Card Details</h1>
+          </div>
+          <div class="card-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slider slider1">
+                  <img src="./assets/Page1.jpg" alt="sample card" />
+                </div>
+                <div class="swiper-slide slider slider2">
+                  <img src="./assets/Page2.jpg" alt="sample card" />
+                </div>
+                <div class="swiper-slide slider slider3">
+                  <img src="./assets/Page3.jpg" alt="sample card" />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="card-details">
+              <h2 class="secondary-title">Card Title</h2>
+              <div class="price-tag">
+                <p class="new-price sub-title">
+                  $499<span class="old-price">$2000</span>
+                </p>
+                <div class="discount">
+                  <p class="sub-title">75%off</p>
+                </div>
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                unde velit quos? Voluptates ab numquam amet magnam
+                exercitationem iure, aliquid saepe, eum nostrum minus.
+              </div>
+              <div class="ctn">
+                <a href="#">Try this Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <section class="section-one">
+        <div class="main-heading">
+          <h2 class="primary-title">Features</h2>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <!-- <img src="" alt="features images" class="img-wrapper" /> -->
+            <div class="img"></div>
+            <div class="secondary-title">
+              <p>Create your card in just 5 mins</p>
+            </div>
+          </div>
+          <div class="feature">
+            <!-- <img src="" alt="features images" class="img-wrapper" /> -->
+            <div class="img"></div>
+            <div class="secondary-title">
+              <p>Customize the Text with "Edit this Page" Option</p>
+            </div>
+          </div>
+          <div class="feature">
+            <!-- <img src="" alt="features images" class="img-wrapper" /> -->
+            <div class="img"></div>
+            <div class="secondary-title">
+              <p>Editing is available after purchase also</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <!-- Swiper Library -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="./script.js"></script>
+</html>
